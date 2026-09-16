@@ -40,7 +40,7 @@ const check = (e)=>{
         localStorage.setItem('firstname',JSON.stringify(firstName.value))
 
         setTimeout(() => {
-            window.open('/pages/login.html')
+            window.open('./pages/login.html')
         }, 1500);
     }
  

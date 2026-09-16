@@ -24,7 +24,7 @@ msg.innerHTML= `logged in !`
 msg.style.color = 'green'
 msg.style.fontSize = '14px'
 setTimeout(()=>{
-window.open('home.html')
+window.open('../pages/home.html')
 },1500)
 }
 }
