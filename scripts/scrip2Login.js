@@ -22,7 +22,7 @@ msg.style.fontSize = '14px'
 }
 else{
 msg.innerHTML= `logged in !`
-msg.style.color = 'green'
+msg.style.color = 'white'
 msg.style.fontSize = '14px'
 setTimeout(()=>{
 window.open('../pages/home.html')

@@ -30,7 +30,7 @@ const check = (e)=>{
     else{
         alert= `Account Succsessfully Created !`
         msg.innerHTML= alert
-        msg.style.color='green'
+        msg.style.color='white'
         msg.style.fontSize='14px'
 
         localStorage.setItem('firstname',JSON.stringify(firstName.value))
