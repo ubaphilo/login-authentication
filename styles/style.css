@@ -1,0 +1,117 @@
+*{
+      padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div input{
+    background-color: grey;
+    color: rgba(12, 12, 12, 0.863);   
+    border-radius: 20px;
+    width: 90%;
+    
+    font-size: 1.1rem;
+    border: 0px;
+    padding: 1rem;
+    cursor: pointer;
+}
+.contain{
+
+    margin-top: 20px;
+    font-size: 1.6rem;
+    color: #c7c4c4;
+    border-radius: 20px;
+    padding: 4rem;
+    width:70%;
+   
+    margin: auto;
+    box-shadow: 0px 0px 10px 5px rgb(70, 67, 67);
+
+}
+.left{
+    text-align: right;
+    
+    
+
+}
+.left a{
+    font-size: 14px;
+    color: #c7c4c4;
+}
+.left a:hover{
+    color: #b1abab;
+}
+.left a:active{
+    color: #686666;
+}
+.curve{
+    font-family: "Dancing Script" cursive;
+    font-weight: bolder;
+}
+
+body{
+  font-family: cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: bold;
+}
+
+div input:focus{
+    background-color:#E8F0FE;
+    color: black;
+
+}
+body{
+        background-image: url(/img/aberrantrealities-technology-8779250_1920.jpg);
+        background-clip: cover;
+        background-repeat: no-repeat;
+        cursor:text ;
+
+    }
+label{
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.inputContain{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+background-color: rgba(10, 10, 10, 0.904);
+    color: white;   
+    border-radius: 20px;
+    width: 90%;
+    
+    font-size: 1.1rem;
+    border: 0px;
+    padding: 1rem;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(14, 13, 13, 0.904);
+
+}
+@media screen and (max-width:780px){
+    .contain{
+        width: 90%;
+        box-shadow: 0 0 0 0 rgb(70, 67, 67);
+
+    }
+    .inputContain{
+    margin-top: 10px;
+
+    }
+    div input{
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+    }
+
+
+}
