@@ -7,7 +7,7 @@
 div input{
     background-color: grey;
     color: rgba(12, 12, 12, 0.863);   
-    border-radius: 20px;
+    border-radius: 13px;
     width: 90%;
     
     font-size: 1.1rem;
@@ -17,12 +17,12 @@ div input{
 }
 .contain{
 
-    margin-top: 20px;
+    margin-top: 16px;
     font-size: 1.6rem;
     color: #c7c4c4;
     border-radius: 20px;
-    padding: 4rem;
-    width:70%;
+    padding: 2rem;
+    width:60%;
     
    
     margin: auto;
@@ -39,6 +39,7 @@ div input{
 .left a{
     font-size: 14px;
     color: #c7c4c4;
+    
 }
 .left a:hover{
     color: #b1abab;
@@ -47,12 +48,13 @@ div input{
     color: #686666;
 }
 .curve{
-    font-family: "Dancing Script" cursive;
+  font-family: cursive;
     font-weight: bolder;
+    text-shadow: 2px 0 2px #070707;
 }
 
-body{
-  font-family: cursive;
+label{
+  font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: bold;
@@ -80,6 +82,7 @@ label{
     margin-top: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .btn{
@@ -100,12 +103,13 @@ background-color: rgba(10, 10, 10, 0.904);
 }
 @media screen and (max-width:780px){
     .contain{
-        width: 100%;
+        width: 100vw;
         box-shadow: 0 0 0 0 rgb(70, 67, 67);
 
     }
     .inputContain{
     margin-top: 10px;
+    width: 100%;
 
     }
     div input{

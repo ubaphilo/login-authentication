@@ -18,6 +18,7 @@ const check = (e)=>{
         alert= `your password cannot be less than 8 characters !`
         msg.innerHTML= alert
         msg.style.color='red'
+        msg.style.textShadow='1px 0 2px  black'
         msg.style.fontSize='14px'
 
     }else if(password.value != confirmPassword.value){

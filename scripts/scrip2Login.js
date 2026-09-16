@@ -17,6 +17,7 @@ msg.style.fontSize = '14px'
 else if( key != password.value || password.value==""){
 msg.innerHTML= `Invalid password !`
 msg.style.color = 'red'
+msg.style.textShadow='1px 0 2px  black'
 msg.style.fontSize = '14px'
 }
 else{
