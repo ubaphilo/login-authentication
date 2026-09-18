@@ -63,9 +63,9 @@ const students = [
         department:'robotics',
     }
 ]
-let detail =""
+
 const displayStudents = ()=>{
-    
+    let detail =""
     students.map((student)=>{
         
         detail += `<div class='card'>
@@ -82,3 +82,35 @@ const displayStudents = ()=>{
     })
 }
 displayStudents()
+
+const searchbtn = document.querySelector('#searchbtn')
+const searchInput = document.querySelector('#searchInput')
+
+
+const search = ()=>{
+    let detail =""
+    boddy.innerHTML= ''
+   students.map((student)=>{
+    if(student.lastName.includes(searchInput.value) || student.firstName.includes(searchInput.value)){
+        detail += `<div class='card'>
+            <img class='navImg' src="/img/aberrantrealities-technology-8779250_1920.jpg" alt="">
+            <div class='cardBody'>
+            <p>Name: ${student.lastName.toUpperCase()} ${student.firstName.toUpperCase()}</p>
+            <p>Age: ${student.age} </p>
+            <p>Departmnt: ${student.department.toUpperCase()}</p>
+            </div class='cardBody'>
+        
+        </div>`
+        boddy.innerHTML= detail
+        
+        
+
+    }
+   } )
+
+
+
+}
+
+
+searchbtn.addEventListener('click', search)
