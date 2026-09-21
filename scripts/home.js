@@ -91,7 +91,7 @@ const search = ()=>{
     let detail =""
     boddy.innerHTML= ''
    students.map((student)=>{
-    if(student.lastName.includes(searchInput.value) || student.firstName.includes(searchInput.value)){
+    if(student.lastName.includes(searchInput.value.toLowerCase()) || student.firstName.includes(searchInput.value.toLowerCase())){
         detail += `<div class='card'>
             <h4>Student Profile</h4>
             <div class='cardBody'>
