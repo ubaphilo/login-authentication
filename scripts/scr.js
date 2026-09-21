@@ -14,7 +14,7 @@ const check = (e)=>{
     
     e.preventDefault()
     let alert;
-  if((password.value.length)<6  ){
+  if((password.value.length)<8  ){
         alert= `your password cannot be less than 8 characters !`
         msg.innerHTML= alert
         msg.style.color='red'
