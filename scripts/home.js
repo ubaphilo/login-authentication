@@ -69,7 +69,7 @@ const displayStudents = ()=>{
     students.map((student)=>{
         
         detail += `<div class='card'>
-            <img class='navImg' src="/img/aberrantrealities-technology-8779250_1920.jpg" alt="">
+            <h4>Student Profile</h4>
             <div class='cardBody'>
             <p>Name: ${student.lastName.toUpperCase()} ${student.firstName.toUpperCase()}</p>
             <p>Age: ${student.age} </p>
@@ -93,7 +93,7 @@ const search = ()=>{
    students.map((student)=>{
     if(student.lastName.includes(searchInput.value) || student.firstName.includes(searchInput.value)){
         detail += `<div class='card'>
-            <img class='navImg' src="/img/aberrantrealities-technology-8779250_1920.jpg" alt="">
+            <h4>Student Profile</h4>
             <div class='cardBody'>
             <p>Name: ${student.lastName.toUpperCase()} ${student.firstName.toUpperCase()}</p>
             <p>Age: ${student.age} </p>
